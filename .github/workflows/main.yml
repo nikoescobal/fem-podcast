@@ -1,14 +1,37 @@
-name: Linters
+name: Build and Test
 
-on: pull_request
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
 
 env:
   FORCE_COLOR: 1
 
 jobs:
+ build_and_test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [10, 12]
+     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install project
+        run: npm install
+      - name: Build the project
+        run: npm run build --if-present
+      - name: Run tests
+        run: npm run test
+
   lighthouse:
     name: Lighthouse
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -20,7 +43,7 @@ jobs:
         run: lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=.
   eslint:
     name: ESLint
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -34,7 +57,7 @@ jobs:
         run: npx eslint .
   nodechecker:
     name: node_modules checker
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Check node_modules existence
