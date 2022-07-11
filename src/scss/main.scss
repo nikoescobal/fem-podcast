@@ -1,19 +1,92 @@
-@use './breakpoints'as *;
-@use './colors'as *;
+@use './breakpoints' as *;
+@use './colors' as *;
+@use './buttons' as *;
 
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   border: 0;
+  overflow: hidden;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
 }
 
-html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  // gap: 2rem;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,15 +98,20 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   text-size-adjust: none;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
@@ -48,16 +126,171 @@ input {
   border-radius: 0;
 }
 
-footer, header, nav, section, main{
+footer,
+header,
+nav,
+section,
+main {
   display: block;
 }
 
 body {
-  background: mistyrose;
+  background: linear-gradient(
+      to top,
+      rgba(18, 23, 37, 0.9),
+      rgba(18, 23, 37, 0.9)
+    ),
+    url('../assets/mobile/image-host.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: $gray;
   line-height: 1;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
   overflow-x: hidden;
+
+  @include md {
+    background: $dark-blue;
+  }
+}
+
+header {
+  position: relative;
+
+  nav {
+    // // position: relative;
+    // background: linear-gradient(
+    //     to top,
+    //     rgba(18, 23, 37, 0.9),
+    //     rgba(18, 23, 37, 0.9)
+    //   ),
+    //   url('../assets/mobile/image-host.jpg');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // height: 100vh;
+
+    #logo {
+      padding: 3.875rem 0 0;
+      text-align: center;
+      z-index: 1;
+
+      img {
+        padding: 0 0 3.563rem;
+      }
+    }
+
+    .color-overlay {
+      // width: 100%;
+      // height: 100%;
+      // background-color: $dark-blue;
+      // opacity: 0.4;
+      // position: absolute;
+      // margin: -5.75rem 0 0 0;
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  // margin: -30rem 0 0;
+  // background: linear-gradient(
+  //     to top,
+  //     rgba(18, 23, 37, 0.9),
+  //     rgba(18, 23, 37, 0.9)
+  //   ),
+  //   url('../assets/mobile/image-host.jpg');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // height: 100%;
+
+  h1 {
+    color: $mint-green;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.625rem;
+    line-height: 2.375rem;
+    font-weight: lighter;
+    padding: 0 1.313rem;
+
+    span {
+      color: $white;
+    }
+  }
+
+  p {
+    text-align: center;
+    font-size: 0.938rem;
+    line-height: 1.563rem;
+    padding: 1rem 1.75rem 2.063rem;
+  }
+
+  #container {
+    display: flex;
+    gap: 1.438rem;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      filter: invert(39%) sepia(43%) saturate(371%) hue-rotate(187deg)
+        brightness(90%) contrast(85%);
+    }
+
+    #spotify {
+      width: 56px;
+    }
+
+    #apple {
+      width: 45px;
+    }
+
+    #google {
+      width: 73px;
+    }
+
+    #pocket {
+      width: 77px;
+    }
+  }
+
+  #btn-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1.75rem 0;
+    gap: 1rem;
+
+    button {
+      @include btn-style;
+      background: $mint-green;
+      margin: 0 0 5.875rem;
+    }
+
+    input {
+      @include btn-style;
+      background: $pantone;
+      color: $white;
+
+      &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: $gray;
+      }
+      &::-moz-placeholder {
+        /* Firefox 19+ */
+        color: $gray;
+      }
+      &:-ms-input-placeholder {
+        /* IE 10+ */
+        color: $gray;
+      }
+      &:-moz-placeholder {
+        /* Firefox 18- */
+        color: $gray;
+      }
+    }
+  }
 }
