@@ -162,22 +162,9 @@ main #btn-container {
   display: flex;
 }
 
-main #btn-container button {
-  vertical-align: middle;
-  cursor: pointer;
-  background: #54e6af;
-  border: #0000;
-  border-radius: 1.75rem;
-  justify-content: center;
-  align-items: center;
-  margin: 0 0 5.875rem;
-  padding: .563rem 1.688rem;
-  font-family: Chivo, sans-serif;
-  font-size: .875rem;
-  font-weight: 400;
-  line-height: 1.75rem;
-  display: flex;
-  box-shadow: 0 25px 20px -20px #54e6af33;
+main #btn-container #message {
+  margin: -2rem 0 0;
+  font-weight: bold;
 }
 
 main #btn-container input {
@@ -198,6 +185,15 @@ main #btn-container input {
   box-shadow: 0 25px 20px -20px #54e6af33;
 }
 
+main #btn-container input:focus {
+  box-shadow: none;
+  outline: 1px solid #5a668a;
+}
+
+main #btn-container input:focus::placeholder {
+  color: #54e6af;
+}
+
 main #btn-container input::-webkit-input-placeholder {
   color: #c2cbe5;
 }
@@ -212,6 +208,48 @@ main #btn-container input:-ms-input-placeholder {
 
 main #btn-container input:-moz-placeholder {
   color: #c2cbe5;
+}
+
+main #btn-container button {
+  vertical-align: middle;
+  cursor: pointer;
+  background: #54e6af;
+  border: #0000;
+  border-radius: 1.75rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 5.875rem;
+  padding: .563rem 1.688rem;
+  font-family: Chivo, sans-serif;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  display: flex;
+  box-shadow: 0 25px 20px -20px #54e6af33;
+}
+
+main #btn-container button:hover {
+  background: #b3ffe2;
+}
+
+main #btn-container button::selection {
+  color: none;
+  background: none;
+}
+
+main #btn-container button:focus {
+  color: #fff;
+  box-shadow: none;
+  background: teal;
+  outline: none;
+}
+
+.green {
+  color: #54e6af;
+}
+
+.red {
+  color: #fb3e3e;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */

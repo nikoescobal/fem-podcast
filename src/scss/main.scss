@@ -182,15 +182,6 @@ header {
         padding: 0 0 3.563rem;
       }
     }
-
-    .color-overlay {
-      // width: 100%;
-      // height: 100%;
-      // background-color: $dark-blue;
-      // opacity: 0.4;
-      // position: absolute;
-      // margin: -5.75rem 0 0 0;
-    }
   }
 }
 
@@ -264,16 +255,24 @@ main {
     padding: 3rem 1.75rem 0;
     gap: 1rem;
 
-    button {
-      @include btn-style;
-      background: $mint-green;
-      margin: 0 0 5.875rem;
+    #message {
+      font-weight: bold;
+      margin: -2rem 0 0;
     }
 
     input {
       @include btn-style;
       background: $pantone;
       color: $white;
+
+      &:focus {
+        outline: 1px solid $mystic-purple;
+        box-shadow: none;
+
+        &::placeholder {
+          color: $mint-green;
+        }
+      }
 
       &::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
@@ -292,5 +291,35 @@ main {
         color: $gray;
       }
     }
+
+    button {
+      @include btn-style;
+      background: $mint-green;
+      margin: 0 0 5.875rem;
+
+      &:hover {
+        background: $light-green;
+      }
+
+      &::selection {
+        color: none;
+        background: none;
+      }
+
+      &:focus {
+        background: teal;
+        color: $white;
+        outline: none;
+        box-shadow: none;
+      }
+    }
   }
+}
+
+.green {
+  color: $mint-green;
+}
+
+.red {
+  color: $red;
 }
