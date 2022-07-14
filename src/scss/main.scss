@@ -35,7 +35,7 @@ body {
   justify-content: space-evenly;
 
   @include md {
-    justify-content: none;
+    justify-content: normal;
   }
 }
 
@@ -146,12 +146,13 @@ main {
       ),
       url('../assets/tablet/image-host.jpg');
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: right;
+    background-size: cover;
     position: absolute;
     top: 0;
     right: 0;
-    height: 100vh;
-    width: 100vh;
+    height: 145vh;
+    width: 90vh;
     background-blend-mode: screen;
   }
 }
@@ -185,17 +186,6 @@ header {
   position: relative;
 
   nav {
-    // // position: relative;
-    // background: linear-gradient(
-    //     to top,
-    //     rgba(18, 23, 37, 0.9),
-    //     rgba(18, 23, 37, 0.9)
-    //   ),
-    //   url('../assets/mobile/image-host.jpg');
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // height: 100vh;
-
     #logo {
       padding: 3.875rem 0 0;
       text-align: center;
@@ -221,10 +211,18 @@ main {
 
   @include md {
     background: $dark-blue;
-    margin: 4rem 5rem 0 0;
+    margin: 5.5rem 5.875rem 0 0;
     padding: 4rem 0 0 2.438rem;
     gap: 0;
     z-index: 2;
+  }
+
+  @include breakpoint(928px) {
+    margin: 8.5rem 6rem 0 0;
+  }
+
+  @include breakpoint(1200px) {
+    margin: 11.5rem 6rem 0 0;
   }
 
   h1 {
@@ -240,7 +238,6 @@ main {
       font-size: 3rem;
       line-height: 3.5rem;
       text-align: left;
-      letter-spacing: 0.04rem;
     }
 
     span {
@@ -259,7 +256,7 @@ main {
       text-align: left;
       font-size: 1.125rem;
       line-height: 1.75;
-      padding: 1.938rem 13rem 0 0;
+      padding: 1.938rem 12rem 0 0;
     }
   }
 
@@ -278,13 +275,18 @@ main {
     @include md {
       order: 1;
       line-height: 3.5rem;
-      padding: 0 7.5rem 9.563rem 0;
+      padding: 0 6.2rem 9.563rem 0;
+      max-width: 40rem;
     }
   }
 
   #message {
     font-weight: bold;
-    padding: 2.5rem 0 0 1rem;
+    padding: 2.5rem 0 0 0;
+
+    @include md {
+      padding: 2.5rem 0 1rem 1.5rem;
+    }
   }
 
   #btn-container {
@@ -337,6 +339,7 @@ main {
       @include btn-style;
       background: $mint-green;
       margin: 0 0 5.875rem;
+      box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.2);
 
       @include md {
         margin: -4.15rem 0 0 16.25rem;
@@ -366,6 +369,7 @@ main {
 
     @include md {
       display: flex;
+      margin: 0 0 0 -0.65rem;
       order: 2;
     }
   }

@@ -26,7 +26,7 @@ html, body {
 
 @media (min-width: 768px) {
   #root {
-    justify-content: none;
+    justify-content: normal;
   }
 }
 
@@ -71,14 +71,14 @@ footer, header, nav, section, main {
 
 @media (min-width: 768px) {
   #bg-container {
-    height: 100vh;
-    width: 100vh;
+    height: 145vh;
+    width: 90vh;
     background-blend-mode: screen;
     background-color: #0000;
     background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.fb7aaec7.jpg");
-    background-position: 100% 0;
+    background-position: 100%;
     background-repeat: no-repeat;
-    background-size: auto, auto;
+    background-size: cover;
     background-attachment: scroll, scroll;
     background-origin: padding-box, padding-box;
     background-clip: border-box, border-box;
@@ -145,8 +145,20 @@ main {
     z-index: 2;
     background: #121725;
     gap: 0;
-    margin: 4rem 5rem 0 0;
+    margin: 5.5rem 5.875rem 0 0;
     padding: 4rem 0 0 2.438rem;
+  }
+}
+
+@media (min-width: 928px) {
+  main {
+    margin: 8.5rem 6rem 0 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    margin: 11.5rem 6rem 0 0;
   }
 }
 
@@ -163,7 +175,6 @@ main h1 {
 @media (min-width: 768px) {
   main h1 {
     text-align: left;
-    letter-spacing: .04rem;
     font-size: 3rem;
     line-height: 3.5rem;
   }
@@ -184,7 +195,7 @@ main p {
 @media (min-width: 768px) {
   main p {
     text-align: left;
-    padding: 1.938rem 13rem 0 0;
+    padding: 1.938rem 12rem 0 0;
     font-size: 1.125rem;
     line-height: 1.75;
   }
@@ -204,15 +215,22 @@ main #container img {
 
 @media (min-width: 768px) {
   main #container {
+    max-width: 40rem;
     order: 1;
-    padding: 0 7.5rem 9.563rem 0;
+    padding: 0 6.2rem 9.563rem 0;
     line-height: 3.5rem;
   }
 }
 
 main #message {
-  padding: 2.5rem 0 0 1rem;
+  padding: 2.5rem 0 0;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  main #message {
+    padding: 2.5rem 0 1rem 1.5rem;
+  }
 }
 
 main #btn-container {
@@ -242,7 +260,6 @@ main #btn-container input {
   font-weight: 400;
   line-height: 1.75rem;
   display: flex;
-  box-shadow: 0 25px 20px -20px #54e6af33;
 }
 
 @media (min-width: 768px) {
@@ -325,6 +342,7 @@ main #bg-pattern-dots {
 @media (min-width: 768px) {
   main #bg-pattern-dots {
     order: 2;
+    margin: 0 0 0 -.65rem;
     display: flex;
   }
 }
