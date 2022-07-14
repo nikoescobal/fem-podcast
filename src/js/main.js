@@ -3,6 +3,7 @@ import spotify from '../assets/desktop/spotify.svg';
 import apple from '../assets/desktop/apple-podcast.svg';
 import google from '../assets/desktop/google-podcasts.svg';
 import pocket from '../assets/desktop/pocket-casts.svg';
+import bgPatternDots from '../assets/desktop/bg-pattern-dots.svg';
 
 function Main() {
   const [email, setEmail] = useState('');
@@ -20,7 +21,7 @@ function Main() {
     }
     setTimeout(() => {
       setMessage('');
-    }, 8000);
+    }, 5000);
   };
 
   return (
@@ -47,10 +48,10 @@ function Main() {
           <img id="pocket" src={pocket} alt="pocket" />
         </div>
       </div>
+      <p className={valid ? 'green' : 'red'} id="message">
+        {message}
+      </p>
       <div id="btn-container">
-        <p className={valid ? 'green' : 'red'} id="message">
-          {message}
-        </p>
         <input
           id="input"
           type="email"
@@ -60,6 +61,9 @@ function Main() {
           required
         />
         <button onClick={emailValidation}>Request Access</button>
+      </div>
+      <div id="bg-pattern-dots">
+        <img src={bgPatternDots} alt="bg-pattern-dots" />
       </div>
     </main>
   );

@@ -27328,7 +27328,8 @@ var _headerDefault = parcelHelpers.interopDefault(_header);
 var _main = require("./Main");
 var _mainDefault = parcelHelpers.interopDefault(_main);
 function Container() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "bg-container",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/js/Container.js",
@@ -27341,7 +27342,11 @@ function Container() {
                 columnNumber: 7
             }, this)
         ]
-    }, void 0, true);
+    }, void 0, true, {
+        fileName: "src/js/Container.js",
+        lineNumber: 10,
+        columnNumber: 5
+    }, this);
 }
 _c = Container;
 exports.default = Container;
@@ -27372,6 +27377,8 @@ var _googlePodcastsSvg = require("../assets/desktop/google-podcasts.svg");
 var _googlePodcastsSvgDefault = parcelHelpers.interopDefault(_googlePodcastsSvg);
 var _pocketCastsSvg = require("../assets/desktop/pocket-casts.svg");
 var _pocketCastsSvgDefault = parcelHelpers.interopDefault(_pocketCastsSvg);
+var _bgPatternDotsSvg = require("../assets/desktop/bg-pattern-dots.svg");
+var _bgPatternDotsSvgDefault = parcelHelpers.interopDefault(_bgPatternDotsSvg);
 var _s = $RefreshSig$();
 function Main() {
     _s();
@@ -27389,7 +27396,7 @@ function Main() {
         }
         setTimeout(()=>{
             setMessage("");
-        }, 8000);
+        }, 5000);
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
         children: [
@@ -27400,20 +27407,20 @@ function Main() {
                         children: "everywhere."
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 31
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Main.js",
-                lineNumber: 28,
+                lineNumber: 29,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Upload your audio to Pod with a single click. We\u2019ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!"
             }, void 0, false, {
                 fileName: "src/js/Main.js",
-                lineNumber: 31,
+                lineNumber: 32,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27426,12 +27433,12 @@ function Main() {
                             alt: "spotify"
                         }, void 0, false, {
                             fileName: "src/js/Main.js",
-                            lineNumber: 38,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 37,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27441,12 +27448,12 @@ function Main() {
                             alt: "apple"
                         }, void 0, false, {
                             fileName: "src/js/Main.js",
-                            lineNumber: 41,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 40,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27456,12 +27463,12 @@ function Main() {
                             alt: "google"
                         }, void 0, false, {
                             fileName: "src/js/Main.js",
-                            lineNumber: 44,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 43,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27471,32 +27478,32 @@ function Main() {
                             alt: "pocket"
                         }, void 0, false, {
                             fileName: "src/js/Main.js",
-                            lineNumber: 47,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 46,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Main.js",
-                lineNumber: 36,
+                lineNumber: 37,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: valid ? "green" : "red",
+                id: "message",
+                children: message
+            }, void 0, false, {
+                fileName: "src/js/Main.js",
+                lineNumber: 51,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 id: "btn-container",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: valid ? "green" : "red",
-                        id: "message",
-                        children: message
-                    }, void 0, false, {
-                        fileName: "src/js/Main.js",
-                        lineNumber: 51,
-                        columnNumber: 9
-                    }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                         id: "input",
                         type: "email",
@@ -27506,7 +27513,7 @@ function Main() {
                         required: true
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 54,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27514,19 +27521,34 @@ function Main() {
                         children: "Request Access"
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 62,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Main.js",
-                lineNumber: 50,
+                lineNumber: 54,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "bg-pattern-dots",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _bgPatternDotsSvgDefault.default),
+                    alt: "bg-pattern-dots"
+                }, void 0, false, {
+                    fileName: "src/js/Main.js",
+                    lineNumber: 66,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/js/Main.js",
+                lineNumber: 65,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/Main.js",
-        lineNumber: 27,
+        lineNumber: 28,
         columnNumber: 5
     }, this);
 }
@@ -27541,7 +27563,7 @@ $RefreshReg$(_c, "Main");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/desktop/spotify.svg":"h1pET","../assets/desktop/apple-podcast.svg":"lQwGX","../assets/desktop/google-podcasts.svg":"kpRNh","../assets/desktop/pocket-casts.svg":"c32rj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h1pET":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/desktop/spotify.svg":"h1pET","../assets/desktop/apple-podcast.svg":"lQwGX","../assets/desktop/google-podcasts.svg":"kpRNh","../assets/desktop/pocket-casts.svg":"c32rj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/desktop/bg-pattern-dots.svg":"3q3ID"}],"h1pET":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "spotify.0827c1c1.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lQwGX":[function(require,module,exports) {
@@ -27552,6 +27574,9 @@ module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "google
 
 },{"./helpers/bundle-url":"lgJ39"}],"c32rj":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "pocket-casts.70254648.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"3q3ID":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "bg-pattern-dots.71034119.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","1yzLA","7bftq"], "7bftq", "parcelRequired897")
 
