@@ -27089,22 +27089,31 @@ var _logoSvgDefault = parcelHelpers.interopDefault(_logoSvg);
 function Header() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "logo",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _logoSvgDefault.default),
-                    alt: "logo"
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    id: "bg-container"
+                }, void 0, false, {
+                    fileName: "src/js/Header.js",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    id: "logo",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _logoSvgDefault.default),
+                        alt: "logo"
+                    }, void 0, false, {
+                        fileName: "src/js/Header.js",
+                        lineNumber: 9,
+                        columnNumber: 11
+                    }, this)
                 }, void 0, false, {
                     fileName: "src/js/Header.js",
                     lineNumber: 8,
-                    columnNumber: 11
+                    columnNumber: 9
                 }, this)
-            }, void 0, false, {
-                fileName: "src/js/Header.js",
-                lineNumber: 7,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
+            ]
+        }, void 0, true, {
             fileName: "src/js/Header.js",
             lineNumber: 6,
             columnNumber: 7
@@ -27328,8 +27337,7 @@ var _headerDefault = parcelHelpers.interopDefault(_header);
 var _main = require("./Main");
 var _mainDefault = parcelHelpers.interopDefault(_main);
 function Container() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        id: "bg-container",
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/js/Container.js",
@@ -27342,11 +27350,7 @@ function Container() {
                 columnNumber: 7
             }, this)
         ]
-    }, void 0, true, {
-        fileName: "src/js/Container.js",
-        lineNumber: 10,
-        columnNumber: 5
-    }, this);
+    }, void 0, true);
 }
 _c = Container;
 exports.default = Container;

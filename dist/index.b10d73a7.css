@@ -71,16 +71,20 @@ footer, header, nav, section, main {
 
 @media (min-width: 768px) {
   #bg-container {
-    height: 83.5vh;
+    height: 100vh;
+    width: 100vh;
+    background-blend-mode: screen;
     background-color: #0000;
     background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.fb7aaec7.jpg");
     background-position: 100% 0;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: auto, auto;
     background-attachment: scroll, scroll;
     background-origin: padding-box, padding-box;
     background-clip: border-box, border-box;
-    margin: -9rem 0 0;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
 
@@ -114,7 +118,7 @@ header {
 
 header nav #logo {
   text-align: center;
-  z-index: 1;
+  z-index: 2;
   padding: 3.875rem 0 0;
 }
 
@@ -138,6 +142,7 @@ main {
 
 @media (min-width: 768px) {
   main {
+    z-index: 2;
     background: #121725;
     gap: 0;
     margin: 4rem 5rem 0 0;
@@ -206,6 +211,7 @@ main #container img {
 }
 
 main #message {
+  padding: 2.5rem 0 0 1rem;
   font-weight: bold;
 }
 
@@ -217,7 +223,7 @@ main #btn-container {
 
 @media (min-width: 768px) {
   main #btn-container {
-    padding: .35rem 0 4rem;
+    padding: 0 0 4rem;
   }
 }
 
@@ -292,7 +298,7 @@ main #btn-container button {
 @media (min-width: 768px) {
   main #btn-container button {
     width: 10.125rem;
-    margin: -4.2rem 0 0 16.25rem;
+    margin: -4.15rem 0 0 16.25rem;
   }
 }
 

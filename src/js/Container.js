@@ -7,10 +7,10 @@ import Main from './Main';
 
 function Container() {
   return (
-    <div id="bg-container">
+    <>
       <Header />
       <Main />
-    </div>
+    </>
   );
 }
 
