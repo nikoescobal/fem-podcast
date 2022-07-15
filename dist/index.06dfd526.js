@@ -27124,7 +27124,7 @@ $RefreshReg$(_c, "Container");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./Header":"dUnNP","./Main":"1SICI","./Footer":"lOveM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dUnNP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./Header":"dUnNP","./Main":"klioU","./Footer":"lOveM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dUnNP":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9315 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27362,11 +27362,11 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"1SICI":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$af9d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react-refresh/runtime":"786KC"}],"klioU":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b45c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$af9d.prelude(module);
+$parcel$ReactRefreshHelpers$b45c.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27408,20 +27408,20 @@ function Main() {
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                         children: "everywhere."
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 29,
                         columnNumber: 31
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "src/js/main.js",
+                fileName: "src/js/Main.js",
                 lineNumber: 28,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Upload your audio to Pod with a single click. We\u2019ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!"
             }, void 0, false, {
-                fileName: "src/js/main.js",
+                fileName: "src/js/Main.js",
                 lineNumber: 31,
                 columnNumber: 7
             }, this),
@@ -27434,12 +27434,12 @@ function Main() {
                             src: (0, _spotifySvgDefault.default),
                             alt: "spotify"
                         }, void 0, false, {
-                            fileName: "src/js/main.js",
+                            fileName: "src/js/Main.js",
                             lineNumber: 38,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 37,
                         columnNumber: 9
                     }, this),
@@ -27449,12 +27449,12 @@ function Main() {
                             src: (0, _applePodcastSvgDefault.default),
                             alt: "apple"
                         }, void 0, false, {
-                            fileName: "src/js/main.js",
+                            fileName: "src/js/Main.js",
                             lineNumber: 41,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 40,
                         columnNumber: 9
                     }, this),
@@ -27464,12 +27464,12 @@ function Main() {
                             src: (0, _googlePodcastsSvgDefault.default),
                             alt: "google"
                         }, void 0, false, {
-                            fileName: "src/js/main.js",
+                            fileName: "src/js/Main.js",
                             lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 43,
                         columnNumber: 9
                     }, this),
@@ -27479,18 +27479,18 @@ function Main() {
                             src: (0, _pocketCastsSvgDefault.default),
                             alt: "pocket"
                         }, void 0, false, {
-                            fileName: "src/js/main.js",
+                            fileName: "src/js/Main.js",
                             lineNumber: 47,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 46,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "src/js/main.js",
+                fileName: "src/js/Main.js",
                 lineNumber: 36,
                 columnNumber: 7
             }, this),
@@ -27505,7 +27505,7 @@ function Main() {
                         value: email,
                         required: true
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 51,
                         columnNumber: 9
                     }, this),
@@ -27513,13 +27513,13 @@ function Main() {
                         onClick: emailValidation,
                         children: "Request Access"
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 59,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "src/js/main.js",
+                fileName: "src/js/Main.js",
                 lineNumber: 50,
                 columnNumber: 7
             }, this),
@@ -27528,13 +27528,13 @@ function Main() {
                 id: "message",
                 children: message
             }, void 0, false, {
-                fileName: "src/js/main.js",
+                fileName: "src/js/Main.js",
                 lineNumber: 61,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "src/js/main.js",
+        fileName: "src/js/Main.js",
         lineNumber: 27,
         columnNumber: 5
     }, this);
@@ -27545,7 +27545,7 @@ exports.default = Main;
 var _c;
 $RefreshReg$(_c, "Main");
 
-  $parcel$ReactRefreshHelpers$af9d.postlude(module);
+  $parcel$ReactRefreshHelpers$b45c.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
