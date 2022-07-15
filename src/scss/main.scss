@@ -147,6 +147,21 @@ main {
     background-blend-mode: screen;
   }
 
+  @include lg {
+    background: linear-gradient(
+        to top,
+        rgba(18, 23, 37, 0.2),
+        rgba(18, 23, 37, 0.2)
+      ),
+      url('../assets/desktop/image-host.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position-x: right;
+    background-blend-mode: screen;
+    margin: 5.125rem 0 0 0;
+    position: relative;
+  }
+
   @include xl {
     background: linear-gradient(
         to top,
@@ -202,6 +217,11 @@ header {
         padding: 3.125rem 0 0 2.438rem;
       }
 
+      @include lg {
+        padding: 0 0 0 6.313rem;
+        margin: -1rem 0 0;
+      }
+
       @include xl {
         padding: 0 0 0 10.313rem;
         margin: -2rem 0 0;
@@ -228,13 +248,10 @@ main {
     z-index: 2;
   }
 
-  // @include breakpoint(928px) {
-  //   margin: 8.5rem 6rem 0 0;
-  // }
-
-  // @include breakpoint(1200px) {
-  //   margin: 11.5rem 6rem 0 0;
-  // }
+  @include lg {
+    margin: -2.3rem 26.2rem 0 0;
+    padding: 3.5rem 0 0 7rem;
+  }
 
   @include xl {
     margin: -3.9rem 34.2rem 0 0;
@@ -254,6 +271,11 @@ main {
       font-size: 3rem;
       line-height: 3.5rem;
       text-align: left;
+    }
+
+    @include lg {
+      font-size: 3.15rem;
+      line-height: 3.675rem;
     }
 
     @include xl {
@@ -408,7 +430,7 @@ footer {
       order: 2;
     }
 
-    @include xl {
+    @include lg {
       position: absolute;
       bottom: 0;
       right: 0;

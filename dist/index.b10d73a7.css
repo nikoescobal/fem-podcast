@@ -80,6 +80,22 @@ footer, header, nav, section, main {
   }
 }
 
+@media (min-width: 1200px) {
+  #bg-container {
+    background-blend-mode: screen;
+    background-color: #0000;
+    background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.f799d711.jpg");
+    background-position: right 0;
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+    background-attachment: scroll, scroll;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    margin: 5.125rem 0 0;
+    position: relative;
+  }
+}
+
 @media (min-width: 1440px) {
   #bg-container {
     background-blend-mode: screen;
@@ -137,6 +153,13 @@ header nav #logo {
   }
 }
 
+@media (min-width: 1200px) {
+  header nav #logo {
+    margin: -1rem 0 0;
+    padding: 0 0 0 6.313rem;
+  }
+}
+
 @media (min-width: 1440px) {
   header nav #logo {
     margin: -2rem 0 0;
@@ -165,6 +188,13 @@ main {
   }
 }
 
+@media (min-width: 1200px) {
+  main {
+    margin: -2.3rem 26.2rem 0 0;
+    padding: 3.5rem 0 0 7rem;
+  }
+}
+
 @media (min-width: 1440px) {
   main {
     margin: -3.9rem 34.2rem 0 0;
@@ -187,6 +217,13 @@ main h1 {
     text-align: left;
     font-size: 3rem;
     line-height: 3.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  main h1 {
+    font-size: 3.15rem;
+    line-height: 3.675rem;
   }
 }
 
@@ -378,7 +415,7 @@ footer #bg-pattern {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   footer #bg-pattern {
     flex-direction: row-reverse;
     padding: 0 0 2.75rem;
