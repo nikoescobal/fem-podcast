@@ -27084,10 +27084,10 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 /* eslint-disable import/extensions */ /* eslint-disable no-unused-vars */ /* eslint-disable import/no-unresolved */ var _header = require("./Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
-var _main = require("./Main");
-var _mainDefault = parcelHelpers.interopDefault(_main);
 var _footer = require("./Footer");
 var _footerDefault = parcelHelpers.interopDefault(_footer);
+var _main = require("./Main");
+var _mainDefault = parcelHelpers.interopDefault(_main);
 function Container() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "bg-container",
