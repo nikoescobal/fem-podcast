@@ -137,7 +137,7 @@ main {
     z-index: 2;
     background: #121725;
     gap: 0;
-    margin: 5.5rem 5.875rem 0 0;
+    margin: 0 5.875rem 0 0;
     padding: 4rem 0 0 2.438rem;
   }
 }
