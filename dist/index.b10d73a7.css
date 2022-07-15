@@ -15,19 +15,13 @@ html, body {
 #root {
   width: 100%;
   height: 100%;
+  min-height: 100vh;
   border: 0;
   flex-direction: column;
-  justify-content: space-evenly;
   margin: 0;
   padding: 0;
   display: flex;
   overflow-x: hidden;
-}
-
-@media (min-width: 768px) {
-  #root {
-    justify-content: normal;
-  }
 }
 
 html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
@@ -71,20 +65,18 @@ footer, header, nav, section, main {
 
 @media (min-width: 768px) {
   #bg-container {
-    height: 145vh;
-    width: 90vh;
+    z-index: 3;
     background-blend-mode: screen;
     background-color: #0000;
     background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.fb7aaec7.jpg");
-    background-position: 100%;
+    background-position: right 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto, auto;
     background-attachment: scroll, scroll;
     background-origin: padding-box, padding-box;
     background-clip: border-box, border-box;
-    position: absolute;
-    top: 0;
-    right: 0;
+    grid-template-rows: 28% 1fr;
+    display: grid;
   }
 }
 
@@ -335,24 +327,24 @@ main #btn-container button:focus {
   outline: none;
 }
 
-main #bg-pattern-dots {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  main #bg-pattern-dots {
-    order: 2;
-    margin: 0 0 0 -.65rem;
-    display: flex;
-  }
-}
-
 .green {
   color: #54e6af;
 }
 
 .red {
   color: #fb3e3e;
+}
+
+footer #bg-pattern {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  footer #bg-pattern {
+    order: 2;
+    margin: 0 0 0 -.65rem;
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */

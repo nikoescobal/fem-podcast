@@ -32,11 +32,7 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-
-  @include md {
-    justify-content: normal;
-  }
+  min-height: 100vh;
 }
 
 html,
@@ -139,6 +135,9 @@ main {
 
 #bg-container {
   @include md {
+    display: grid;
+    z-index: 3;
+    grid-template-rows: 28% 1fr;
     background: linear-gradient(
         to top,
         rgba(18, 23, 37, 0.2),
@@ -146,13 +145,12 @@ main {
       ),
       url('../assets/tablet/image-host.jpg');
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 145vh;
-    width: 90vh;
+    background-position-y: 0;
+    background-position-x: right;
+    // background-size: cover;
+    // position: absolute;
+    // top: 0;
+    // right: 0;
     background-blend-mode: screen;
   }
 }
@@ -363,16 +361,6 @@ main {
       }
     }
   }
-
-  #bg-pattern-dots {
-    display: none;
-
-    @include md {
-      display: flex;
-      margin: 0 0 0 -0.65rem;
-      order: 2;
-    }
-  }
 }
 
 .green {
@@ -381,4 +369,16 @@ main {
 
 .red {
   color: $red;
+}
+
+footer {
+  #bg-pattern {
+    display: none;
+
+    @include md {
+      display: flex;
+      margin: 0 0 0 -0.65rem;
+      order: 2;
+    }
+  }
 }

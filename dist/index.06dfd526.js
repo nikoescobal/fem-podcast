@@ -27089,31 +27089,22 @@ var _logoSvgDefault = parcelHelpers.interopDefault(_logoSvg);
 function Header() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    id: "bg-container"
-                }, void 0, false, {
-                    fileName: "src/js/Header.js",
-                    lineNumber: 7,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    id: "logo",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _logoSvgDefault.default),
-                        alt: "logo"
-                    }, void 0, false, {
-                        fileName: "src/js/Header.js",
-                        lineNumber: 9,
-                        columnNumber: 11
-                    }, this)
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "logo",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _logoSvgDefault.default),
+                    alt: "logo"
                 }, void 0, false, {
                     fileName: "src/js/Header.js",
                     lineNumber: 8,
-                    columnNumber: 9
+                    columnNumber: 11
                 }, this)
-            ]
-        }, void 0, true, {
+            }, void 0, false, {
+                fileName: "src/js/Header.js",
+                lineNumber: 7,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "src/js/Header.js",
             lineNumber: 6,
             columnNumber: 7
@@ -27331,13 +27322,15 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/* eslint-disable import/extensions */ /* eslint-disable no-unused-vars */ // import logo from '../assets/desktop/logo.svg';
-var _header = require("./Header");
+/* eslint-disable import/extensions */ /* eslint-disable no-unused-vars */ var _header = require("./Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _main = require("./Main");
 var _mainDefault = parcelHelpers.interopDefault(_main);
+var _footer = require("./Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
 function Container() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "bg-container",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/js/Container.js",
@@ -27348,9 +27341,18 @@ function Container() {
                 fileName: "src/js/Container.js",
                 lineNumber: 12,
                 columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "src/js/Container.js",
+                lineNumber: 13,
+                columnNumber: 7
             }, this)
         ]
-    }, void 0, true);
+    }, void 0, true, {
+        fileName: "src/js/Container.js",
+        lineNumber: 10,
+        columnNumber: 5
+    }, this);
 }
 _c = Container;
 exports.default = Container;
@@ -27362,7 +27364,7 @@ $RefreshReg$(_c, "Container");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Header":"dUnNP","./Main":"klioU"}],"klioU":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Header":"dUnNP","./Main":"klioU","./Footer":"lOveM"}],"klioU":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b45c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27381,8 +27383,6 @@ var _googlePodcastsSvg = require("../assets/desktop/google-podcasts.svg");
 var _googlePodcastsSvgDefault = parcelHelpers.interopDefault(_googlePodcastsSvg);
 var _pocketCastsSvg = require("../assets/desktop/pocket-casts.svg");
 var _pocketCastsSvgDefault = parcelHelpers.interopDefault(_pocketCastsSvg);
-var _bgPatternDotsSvg = require("../assets/desktop/bg-pattern-dots.svg");
-var _bgPatternDotsSvgDefault = parcelHelpers.interopDefault(_bgPatternDotsSvg);
 var _s = $RefreshSig$();
 function Main() {
     _s();
@@ -27411,20 +27411,20 @@ function Main() {
                         children: "everywhere."
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 30,
+                        lineNumber: 29,
                         columnNumber: 31
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Main.js",
-                lineNumber: 29,
+                lineNumber: 28,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Upload your audio to Pod with a single click. We\u2019ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!"
             }, void 0, false, {
                 fileName: "src/js/Main.js",
-                lineNumber: 32,
+                lineNumber: 31,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27437,12 +27437,12 @@ function Main() {
                             alt: "spotify"
                         }, void 0, false, {
                             fileName: "src/js/Main.js",
-                            lineNumber: 39,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 38,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27452,12 +27452,12 @@ function Main() {
                             alt: "apple"
                         }, void 0, false, {
                             fileName: "src/js/Main.js",
-                            lineNumber: 42,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 41,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27467,12 +27467,12 @@ function Main() {
                             alt: "google"
                         }, void 0, false, {
                             fileName: "src/js/Main.js",
-                            lineNumber: 45,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 44,
+                        lineNumber: 43,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27482,18 +27482,18 @@ function Main() {
                             alt: "pocket"
                         }, void 0, false, {
                             fileName: "src/js/Main.js",
-                            lineNumber: 48,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 47,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Main.js",
-                lineNumber: 37,
+                lineNumber: 36,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27502,7 +27502,7 @@ function Main() {
                 children: message
             }, void 0, false, {
                 fileName: "src/js/Main.js",
-                lineNumber: 51,
+                lineNumber: 50,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27517,7 +27517,7 @@ function Main() {
                         required: true
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 55,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27525,34 +27525,19 @@ function Main() {
                         children: "Request Access"
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 63,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Main.js",
-                lineNumber: 54,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "bg-pattern-dots",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _bgPatternDotsSvgDefault.default),
-                    alt: "bg-pattern-dots"
-                }, void 0, false, {
-                    fileName: "src/js/Main.js",
-                    lineNumber: 66,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "src/js/Main.js",
-                lineNumber: 65,
+                lineNumber: 53,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/Main.js",
-        lineNumber: 28,
+        lineNumber: 27,
         columnNumber: 5
     }, this);
 }
@@ -27567,7 +27552,7 @@ $RefreshReg$(_c, "Main");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/desktop/spotify.svg":"h1pET","../assets/desktop/apple-podcast.svg":"lQwGX","../assets/desktop/google-podcasts.svg":"kpRNh","../assets/desktop/pocket-casts.svg":"c32rj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/desktop/bg-pattern-dots.svg":"3q3ID"}],"h1pET":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/desktop/spotify.svg":"h1pET","../assets/desktop/apple-podcast.svg":"lQwGX","../assets/desktop/google-podcasts.svg":"kpRNh","../assets/desktop/pocket-casts.svg":"c32rj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h1pET":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "spotify.0827c1c1.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lQwGX":[function(require,module,exports) {
@@ -27579,7 +27564,58 @@ module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "google
 },{"./helpers/bundle-url":"lgJ39"}],"c32rj":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "pocket-casts.70254648.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"3q3ID":[function(require,module,exports) {
+},{"./helpers/bundle-url":"lgJ39"}],"lOveM":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f05b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f05b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _bgPatternDotsSvg = require("../assets/desktop/bg-pattern-dots.svg");
+var _bgPatternDotsSvgDefault = parcelHelpers.interopDefault(_bgPatternDotsSvg);
+function Footer() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "bg-pattern",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _bgPatternDotsSvgDefault.default),
+                    alt: "bgPattern"
+                }, void 0, false, {
+                    fileName: "src/js/Footer.js",
+                    lineNumber: 8,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "src/js/Footer.js",
+                lineNumber: 7,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/js/Footer.js",
+            lineNumber: 6,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/js/Footer.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, this);
+}
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$f05b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../assets/desktop/bg-pattern-dots.svg":"3q3ID","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3q3ID":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "bg-pattern-dots.71034119.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","1yzLA","7bftq"], "7bftq", "parcelRequired897")
