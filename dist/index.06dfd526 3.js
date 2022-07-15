@@ -2919,7 +2919,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./Container":"avkUw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Container":"avkUw"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -27072,146 +27072,6 @@ module.exports = require("./cjs/scheduler.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"avkUw":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$11ea = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$11ea.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/* eslint-disable import/extensions */ /* eslint-disable no-unused-vars */ /* eslint-disable import/no-unresolved */ var _header = require("./Header");
-var _headerDefault = parcelHelpers.interopDefault(_header);
-var _main = require("./Main");
-var _mainDefault = parcelHelpers.interopDefault(_main);
-var _footer = require("./Footer");
-var _footerDefault = parcelHelpers.interopDefault(_footer);
-function Container() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        id: "bg-container",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
-                fileName: "src/js/Container.js",
-                lineNumber: 12,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainDefault.default), {}, void 0, false, {
-                fileName: "src/js/Container.js",
-                lineNumber: 13,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
-                fileName: "src/js/Container.js",
-                lineNumber: 14,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/js/Container.js",
-        lineNumber: 11,
-        columnNumber: 5
-    }, this);
-}
-_c = Container;
-exports.default = Container;
-var _c;
-$RefreshReg$(_c, "Container");
-
-  $parcel$ReactRefreshHelpers$11ea.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","./Header":"dUnNP","./Main":"1SICI","./Footer":"lOveM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dUnNP":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9315 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9315.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _logoSvg = require("../assets/desktop/logo.svg");
-var _logoSvgDefault = parcelHelpers.interopDefault(_logoSvg);
-function Header() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "logo",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _logoSvgDefault.default),
-                    alt: "logo"
-                }, void 0, false, {
-                    fileName: "src/js/Header.js",
-                    lineNumber: 8,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "src/js/Header.js",
-                lineNumber: 7,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
-            fileName: "src/js/Header.js",
-            lineNumber: 6,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/js/Header.js",
-        lineNumber: 5,
-        columnNumber: 5
-    }, this);
-}
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$9315.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","../assets/desktop/logo.svg":"cMtCQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cMtCQ":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "logo.81a88f3c.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
 },{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
@@ -27362,11 +27222,151 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"1SICI":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$af9d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react-refresh/runtime":"786KC"}],"avkUw":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$11ea = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$af9d.prelude(module);
+$parcel$ReactRefreshHelpers$11ea.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+/* eslint-disable import/extensions */ /* eslint-disable no-unused-vars */ var _header = require("./Header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
+var _main = require("./Main");
+var _mainDefault = parcelHelpers.interopDefault(_main);
+var _footer = require("./Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
+function Container() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "bg-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "src/js/Container.js",
+                lineNumber: 11,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainDefault.default), {}, void 0, false, {
+                fileName: "src/js/Container.js",
+                lineNumber: 12,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "src/js/Container.js",
+                lineNumber: 13,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/js/Container.js",
+        lineNumber: 10,
+        columnNumber: 5
+    }, this);
+}
+_c = Container;
+exports.default = Container;
+var _c;
+$RefreshReg$(_c, "Container");
+
+  $parcel$ReactRefreshHelpers$11ea.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Header":"dUnNP","./Main":"klioU","./Footer":"lOveM"}],"dUnNP":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9315 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9315.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _logoSvg = require("../assets/desktop/logo.svg");
+var _logoSvgDefault = parcelHelpers.interopDefault(_logoSvg);
+function Header() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "logo",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _logoSvgDefault.default),
+                    alt: "logo"
+                }, void 0, false, {
+                    fileName: "src/js/Header.js",
+                    lineNumber: 8,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "src/js/Header.js",
+                lineNumber: 7,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/js/Header.js",
+            lineNumber: 6,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/js/Header.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, this);
+}
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$9315.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../assets/desktop/logo.svg":"cMtCQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cMtCQ":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "logo.81a88f3c.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"klioU":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b45c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b45c.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27408,20 +27408,20 @@ function Main() {
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                         children: "everywhere."
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 29,
                         columnNumber: 31
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "src/js/main.js",
+                fileName: "src/js/Main.js",
                 lineNumber: 28,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Upload your audio to Pod with a single click. We\u2019ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!"
             }, void 0, false, {
-                fileName: "src/js/main.js",
+                fileName: "src/js/Main.js",
                 lineNumber: 31,
                 columnNumber: 7
             }, this),
@@ -27434,12 +27434,12 @@ function Main() {
                             src: (0, _spotifySvgDefault.default),
                             alt: "spotify"
                         }, void 0, false, {
-                            fileName: "src/js/main.js",
+                            fileName: "src/js/Main.js",
                             lineNumber: 38,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 37,
                         columnNumber: 9
                     }, this),
@@ -27449,12 +27449,12 @@ function Main() {
                             src: (0, _applePodcastSvgDefault.default),
                             alt: "apple"
                         }, void 0, false, {
-                            fileName: "src/js/main.js",
+                            fileName: "src/js/Main.js",
                             lineNumber: 41,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 40,
                         columnNumber: 9
                     }, this),
@@ -27464,12 +27464,12 @@ function Main() {
                             src: (0, _googlePodcastsSvgDefault.default),
                             alt: "google"
                         }, void 0, false, {
-                            fileName: "src/js/main.js",
+                            fileName: "src/js/Main.js",
                             lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 43,
                         columnNumber: 9
                     }, this),
@@ -27479,18 +27479,18 @@ function Main() {
                             src: (0, _pocketCastsSvgDefault.default),
                             alt: "pocket"
                         }, void 0, false, {
-                            fileName: "src/js/main.js",
+                            fileName: "src/js/Main.js",
                             lineNumber: 47,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 46,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "src/js/main.js",
+                fileName: "src/js/Main.js",
                 lineNumber: 36,
                 columnNumber: 7
             }, this),
@@ -27505,7 +27505,7 @@ function Main() {
                         value: email,
                         required: true
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 51,
                         columnNumber: 9
                     }, this),
@@ -27513,13 +27513,13 @@ function Main() {
                         onClick: emailValidation,
                         children: "Request Access"
                     }, void 0, false, {
-                        fileName: "src/js/main.js",
+                        fileName: "src/js/Main.js",
                         lineNumber: 59,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "src/js/main.js",
+                fileName: "src/js/Main.js",
                 lineNumber: 50,
                 columnNumber: 7
             }, this),
@@ -27528,13 +27528,13 @@ function Main() {
                 id: "message",
                 children: message
             }, void 0, false, {
-                fileName: "src/js/main.js",
+                fileName: "src/js/Main.js",
                 lineNumber: 61,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "src/js/main.js",
+        fileName: "src/js/Main.js",
         lineNumber: 27,
         columnNumber: 5
     }, this);
@@ -27545,7 +27545,7 @@ exports.default = Main;
 var _c;
 $RefreshReg$(_c, "Main");
 
-  $parcel$ReactRefreshHelpers$af9d.postlude(module);
+  $parcel$ReactRefreshHelpers$b45c.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;

@@ -2903,13 +2903,15 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 /* eslint-disable no-unused-vars */ /* eslint-disable import/extensions */ // import ReactDOM from "react-dom";
 var _client = require("react-dom/client");
-var _container = require("./Container");
-var _containerDefault = parcelHelpers.interopDefault(_container);
+var _main = require("./Main");
+var _mainDefault = parcelHelpers.interopDefault(_main);
+var _header = require("./Header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
 const root = _client.createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _containerDefault.default), {}, void 0, false, {
+    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainDefault.default), {}, void 0, false, {
         fileName: "src/js/App.js",
-        lineNumber: 10,
+        lineNumber: 12,
         columnNumber: 5
     }, undefined)
 }, void 0, false));
@@ -2919,7 +2921,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./Container":"avkUw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./Main":"klioU","./Header":"dUnNP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -27072,111 +27074,204 @@ module.exports = require("./cjs/scheduler.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"avkUw":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$11ea = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"klioU":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b45c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$11ea.prelude(module);
+$parcel$ReactRefreshHelpers$b45c.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/* eslint-disable import/extensions */ /* eslint-disable no-unused-vars */ /* eslint-disable import/no-unresolved */ var _header = require("./Header");
-var _headerDefault = parcelHelpers.interopDefault(_header);
-var _main = require("./Main");
-var _mainDefault = parcelHelpers.interopDefault(_main);
-var _footer = require("./Footer");
-var _footerDefault = parcelHelpers.interopDefault(_footer);
-function Container() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        id: "bg-container",
+var _spotifySvg = require("../assets/desktop/spotify.svg");
+var _spotifySvgDefault = parcelHelpers.interopDefault(_spotifySvg);
+var _applePodcastSvg = require("../assets/desktop/apple-podcast.svg");
+var _applePodcastSvgDefault = parcelHelpers.interopDefault(_applePodcastSvg);
+var _googlePodcastsSvg = require("../assets/desktop/google-podcasts.svg");
+var _googlePodcastsSvgDefault = parcelHelpers.interopDefault(_googlePodcastsSvg);
+var _pocketCastsSvg = require("../assets/desktop/pocket-casts.svg");
+var _pocketCastsSvgDefault = parcelHelpers.interopDefault(_pocketCastsSvg);
+var _logoSvg = require("../assets/desktop/logo.svg");
+var _logoSvgDefault = parcelHelpers.interopDefault(_logoSvg);
+function Main() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
-                fileName: "src/js/Container.js",
-                lineNumber: 12,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "color-overlay"
+                        }, void 0, false, {
+                            fileName: "src/js/Main.js",
+                            lineNumber: 12,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            id: "logo",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _logoSvgDefault.default),
+                                alt: "logo"
+                            }, void 0, false, {
+                                fileName: "src/js/Main.js",
+                                lineNumber: 14,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/js/Main.js",
+                            lineNumber: 13,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/Main.js",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/js/Main.js",
+                lineNumber: 10,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainDefault.default), {}, void 0, false, {
-                fileName: "src/js/Container.js",
-                lineNumber: 13,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
-                fileName: "src/js/Container.js",
-                lineNumber: 14,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: [
+                            "Publish your podcasts ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "everywhere."
+                            }, void 0, false, {
+                                fileName: "src/js/Main.js",
+                                lineNumber: 20,
+                                columnNumber: 33
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/js/Main.js",
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Upload your audio to Pod with a single click. We\u2019ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!"
+                    }, void 0, false, {
+                        fileName: "src/js/Main.js",
+                        lineNumber: 22,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        id: "container",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    id: "spotify",
+                                    src: (0, _spotifySvgDefault.default),
+                                    alt: "spotify"
+                                }, void 0, false, {
+                                    fileName: "src/js/Main.js",
+                                    lineNumber: 29,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/js/Main.js",
+                                lineNumber: 28,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    id: "apple",
+                                    src: (0, _applePodcastSvgDefault.default),
+                                    alt: "apple"
+                                }, void 0, false, {
+                                    fileName: "src/js/Main.js",
+                                    lineNumber: 32,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/js/Main.js",
+                                lineNumber: 31,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    id: "google",
+                                    src: (0, _googlePodcastsSvgDefault.default),
+                                    alt: "google"
+                                }, void 0, false, {
+                                    fileName: "src/js/Main.js",
+                                    lineNumber: 35,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/js/Main.js",
+                                lineNumber: 34,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    id: "pocket",
+                                    src: (0, _pocketCastsSvgDefault.default),
+                                    alt: "pocket"
+                                }, void 0, false, {
+                                    fileName: "src/js/Main.js",
+                                    lineNumber: 38,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/js/Main.js",
+                                lineNumber: 37,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/js/Main.js",
+                        lineNumber: 27,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        id: "btn-container",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                placeholder: "Email Address"
+                            }, void 0, false, {
+                                fileName: "src/js/Main.js",
+                                lineNumber: 42,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "",
+                                children: "Request Access"
+                            }, void 0, false, {
+                                fileName: "src/js/Main.js",
+                                lineNumber: 43,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/js/Main.js",
+                        lineNumber: 41,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/js/Main.js",
+                lineNumber: 18,
                 columnNumber: 7
             }, this)
         ]
-    }, void 0, true, {
-        fileName: "src/js/Container.js",
-        lineNumber: 11,
-        columnNumber: 5
-    }, this);
+    }, void 0, true);
 }
-_c = Container;
-exports.default = Container;
+_c = Main;
+exports.default = Main;
 var _c;
-$RefreshReg$(_c, "Container");
+$RefreshReg$(_c, "Main");
 
-  $parcel$ReactRefreshHelpers$11ea.postlude(module);
+  $parcel$ReactRefreshHelpers$b45c.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./Header":"dUnNP","./Main":"1SICI","./Footer":"lOveM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dUnNP":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9315 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9315.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _logoSvg = require("../assets/desktop/logo.svg");
-var _logoSvgDefault = parcelHelpers.interopDefault(_logoSvg);
-function Header() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "logo",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _logoSvgDefault.default),
-                    alt: "logo"
-                }, void 0, false, {
-                    fileName: "src/js/Header.js",
-                    lineNumber: 8,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "src/js/Header.js",
-                lineNumber: 7,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
-            fileName: "src/js/Header.js",
-            lineNumber: 6,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/js/Header.js",
-        lineNumber: 5,
-        columnNumber: 5
-    }, this);
-}
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$9315.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","../assets/desktop/logo.svg":"cMtCQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cMtCQ":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "logo.81a88f3c.svg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","../assets/desktop/spotify.svg":"h1pET","../assets/desktop/apple-podcast.svg":"lQwGX","../assets/desktop/google-podcasts.svg":"kpRNh","../assets/desktop/pocket-casts.svg":"c32rj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/desktop/logo.svg":"cMtCQ"}],"h1pET":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "spotify.0827c1c1.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
@@ -27212,7 +27307,16 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"gkKU3":[function(require,module,exports) {
+},{}],"lQwGX":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "apple-podcast.ea936011.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"kpRNh":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "google-podcasts.8e9a58ed.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"c32rj":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "pocket-casts.70254648.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27362,254 +27466,11 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"1SICI":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$af9d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$af9d.prelude(module);
+},{"react-refresh/runtime":"786KC"}],"cMtCQ":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "logo.81a88f3c.svg" + "?" + Date.now();
 
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _spotifySvg = require("../assets/desktop/spotify.svg");
-var _spotifySvgDefault = parcelHelpers.interopDefault(_spotifySvg);
-var _applePodcastSvg = require("../assets/desktop/apple-podcast.svg");
-var _applePodcastSvgDefault = parcelHelpers.interopDefault(_applePodcastSvg);
-var _googlePodcastsSvg = require("../assets/desktop/google-podcasts.svg");
-var _googlePodcastsSvgDefault = parcelHelpers.interopDefault(_googlePodcastsSvg);
-var _pocketCastsSvg = require("../assets/desktop/pocket-casts.svg");
-var _pocketCastsSvgDefault = parcelHelpers.interopDefault(_pocketCastsSvg);
-var _s = $RefreshSig$();
-function Main() {
-    _s();
-    const [email, setEmail] = (0, _react.useState)("");
-    const [message, setMessage] = (0, _react.useState)("");
-    const [valid, setValid] = (0, _react.useState)(false);
-    const emailValidation = ()=>{
-        const regex = /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}(.[a-z{2,8}])?/;
-        if (regex.test(email)) {
-            setMessage("You have succesfully requested access.");
-            setValid(true);
-        } else if (!regex.test(email) || email === "") {
-            setMessage("Please enter a valid email address.");
-            setValid(false);
-        }
-        setTimeout(()=>{
-            setMessage("");
-        }, 5000);
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: [
-                    "Publish your podcasts ",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                        children: "everywhere."
-                    }, void 0, false, {
-                        fileName: "src/js/main.js",
-                        lineNumber: 29,
-                        columnNumber: 31
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/js/main.js",
-                lineNumber: 28,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "Upload your audio to Pod with a single click. We\u2019ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!"
-            }, void 0, false, {
-                fileName: "src/js/main.js",
-                lineNumber: 31,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "container",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            id: "spotify",
-                            src: (0, _spotifySvgDefault.default),
-                            alt: "spotify"
-                        }, void 0, false, {
-                            fileName: "src/js/main.js",
-                            lineNumber: 38,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/js/main.js",
-                        lineNumber: 37,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            id: "apple",
-                            src: (0, _applePodcastSvgDefault.default),
-                            alt: "apple"
-                        }, void 0, false, {
-                            fileName: "src/js/main.js",
-                            lineNumber: 41,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/js/main.js",
-                        lineNumber: 40,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            id: "google",
-                            src: (0, _googlePodcastsSvgDefault.default),
-                            alt: "google"
-                        }, void 0, false, {
-                            fileName: "src/js/main.js",
-                            lineNumber: 44,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/js/main.js",
-                        lineNumber: 43,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            id: "pocket",
-                            src: (0, _pocketCastsSvgDefault.default),
-                            alt: "pocket"
-                        }, void 0, false, {
-                            fileName: "src/js/main.js",
-                            lineNumber: 47,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/js/main.js",
-                        lineNumber: 46,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/js/main.js",
-                lineNumber: 36,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "btn-container",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        id: "input",
-                        type: "email",
-                        onChange: (e)=>setEmail(e.target.value),
-                        placeholder: "Email Address",
-                        value: email,
-                        required: true
-                    }, void 0, false, {
-                        fileName: "src/js/main.js",
-                        lineNumber: 51,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        onClick: emailValidation,
-                        children: "Request Access"
-                    }, void 0, false, {
-                        fileName: "src/js/main.js",
-                        lineNumber: 59,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/js/main.js",
-                lineNumber: 50,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: valid ? "green" : "red",
-                id: "message",
-                children: message
-            }, void 0, false, {
-                fileName: "src/js/main.js",
-                lineNumber: 61,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/js/main.js",
-        lineNumber: 27,
-        columnNumber: 5
-    }, this);
-}
-_s(Main, "53I05V3/rB5LXhQNfUFMjLUE3d0=");
-_c = Main;
-exports.default = Main;
-var _c;
-$RefreshReg$(_c, "Main");
+},{"./helpers/bundle-url":"lgJ39"}],"dUnNP":[function(require,module,exports) {
 
-  $parcel$ReactRefreshHelpers$af9d.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/desktop/spotify.svg":"h1pET","../assets/desktop/apple-podcast.svg":"lQwGX","../assets/desktop/google-podcasts.svg":"kpRNh","../assets/desktop/pocket-casts.svg":"c32rj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h1pET":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "spotify.0827c1c1.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lQwGX":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "apple-podcast.ea936011.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"kpRNh":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "google-podcasts.8e9a58ed.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"c32rj":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "pocket-casts.70254648.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lOveM":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f05b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f05b.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _bgPatternDotsSvg = require("../assets/desktop/bg-pattern-dots.svg");
-var _bgPatternDotsSvgDefault = parcelHelpers.interopDefault(_bgPatternDotsSvg);
-function Footer() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            id: "bg-pattern",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: (0, _bgPatternDotsSvgDefault.default),
-                alt: "bgPattern"
-            }, void 0, false, {
-                fileName: "src/js/Footer.js",
-                lineNumber: 7,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
-            fileName: "src/js/Footer.js",
-            lineNumber: 6,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/js/Footer.js",
-        lineNumber: 5,
-        columnNumber: 5
-    }, this);
-}
-_c = Footer;
-exports.default = Footer;
-var _c;
-$RefreshReg$(_c, "Footer");
-
-  $parcel$ReactRefreshHelpers$f05b.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","../assets/desktop/bg-pattern-dots.svg":"3q3ID","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3q3ID":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "bg-pattern-dots.71034119.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","1yzLA","7bftq"], "7bftq", "parcelRequired897")
+},{}]},["1xC6H","1yzLA","7bftq"], "7bftq", "parcelRequired897")
 
 //# sourceMappingURL=index.06dfd526.js.map
