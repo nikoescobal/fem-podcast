@@ -2,7 +2,6 @@
   "name": "sass-parcel-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
@@ -18,7 +17,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
-    "hint": "^7.0.1",
+    "hint": "7.1.0",
     "parcel": "^2.6.2",
     "process": "^0.11.10",
     "sass": "^1.53.0"

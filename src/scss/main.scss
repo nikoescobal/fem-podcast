@@ -299,11 +299,11 @@ main {
       text-align: left;
       font-size: 1.125rem;
       line-height: 1.75;
-      padding: 1.938rem 12rem 0 0;
+      padding: 1.7rem 12rem 2.5rem 0;
     }
 
     @include lg {
-      padding: 1.5rem 12rem 0 0;
+      padding: 1.5rem 12rem 2.5rem 0;
     }
   }
 
@@ -322,7 +322,7 @@ main {
     @include md {
       order: 1;
       line-height: 3.5rem;
-      padding: 0 6.2rem 9.563rem 0;
+      padding: 2rem 6.2rem 9.563rem 0;
       max-width: 40rem;
     }
   }
@@ -340,10 +340,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 0.95rem;
-
-    @include md {
-      padding: 0 0 4rem;
-    }
 
     input {
       @include btn-style;
@@ -435,7 +431,11 @@ footer {
       bottom: 0;
       right: 0;
       flex-direction: row-reverse;
-      padding: 0 0 2.75rem;
+      padding: 0 0 3.35rem;
+    }
+
+    @include xl {
+      padding: 0 0 3.25rem;
     }
   }
 }

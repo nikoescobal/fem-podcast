@@ -249,7 +249,7 @@ main p {
 @media (min-width: 768px) {
   main p {
     text-align: left;
-    padding: 1.7rem 12rem 2.5rem 0;
+    padding: 1.938rem 12rem 0 0;
     font-size: 1.125rem;
     line-height: 1.75;
   }
@@ -257,7 +257,7 @@ main p {
 
 @media (min-width: 1200px) {
   main p {
-    padding: 1.5rem 12rem 2.5rem 0;
+    padding: 1.5rem 12rem 0 0;
   }
 }
 
@@ -277,7 +277,7 @@ main #container img {
   main #container {
     max-width: 40rem;
     order: 1;
-    padding: 2rem 6.2rem 9.563rem 0;
+    padding: 0 6.2rem 9.563rem 0;
     line-height: 3.5rem;
   }
 }
@@ -297,6 +297,12 @@ main #btn-container {
   flex-direction: column;
   gap: .95rem;
   display: flex;
+}
+
+@media (min-width: 768px) {
+  main #btn-container {
+    padding: 0 0 4rem;
+  }
 }
 
 main #btn-container input {
@@ -412,16 +418,10 @@ footer #bg-pattern {
 @media (min-width: 1200px) {
   footer #bg-pattern {
     flex-direction: row-reverse;
-    padding: 0 0 3.35rem;
+    padding: 0 0 2.75rem;
     position: absolute;
     bottom: 0;
     right: 0;
-  }
-}
-
-@media (min-width: 1440px) {
-  footer #bg-pattern {
-    padding: 0 0 3.25rem;
   }
 }
 
