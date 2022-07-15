@@ -75,8 +75,24 @@ footer, header, nav, section, main {
     background-attachment: scroll, scroll;
     background-origin: padding-box, padding-box;
     background-clip: border-box, border-box;
-    grid-template-rows: 28% 1fr;
+    grid-template-rows: 27% 1fr;
     display: grid;
+  }
+}
+
+@media (min-width: 1440px) {
+  #bg-container {
+    background-blend-mode: screen;
+    background-color: #0000;
+    background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.f799d711.jpg");
+    background-position: right 0;
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+    background-attachment: scroll, scroll;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    margin: 8.125rem 0 0;
+    position: relative;
   }
 }
 
@@ -121,6 +137,13 @@ header nav #logo {
   }
 }
 
+@media (min-width: 1440px) {
+  header nav #logo {
+    margin: -2rem 0 0;
+    padding: 0 0 0 10.313rem;
+  }
+}
+
 header nav #logo img {
   padding: 0 0 3.563rem;
 }
@@ -142,15 +165,10 @@ main {
   }
 }
 
-@media (min-width: 928px) {
+@media (min-width: 1440px) {
   main {
-    margin: 8.5rem 6rem 0 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  main {
-    margin: 11.5rem 6rem 0 0;
+    margin: -3.9rem 34.2rem 0 0;
+    padding: 5.5rem 0 0 10.313rem;
   }
 }
 
@@ -172,6 +190,13 @@ main h1 {
   }
 }
 
+@media (min-width: 1440px) {
+  main h1 {
+    font-size: 3.25rem;
+    line-height: 3.875rem;
+  }
+}
+
 main h1 span {
   color: #fff;
 }
@@ -190,6 +215,12 @@ main p {
     padding: 1.938rem 12rem 0 0;
     font-size: 1.125rem;
     line-height: 1.75;
+  }
+}
+
+@media (min-width: 1200px) {
+  main p {
+    padding: 1.5rem 12rem 0 0;
   }
 }
 
@@ -227,7 +258,7 @@ main #message {
 
 main #btn-container {
   flex-direction: column;
-  gap: 1rem;
+  gap: .95rem;
   display: flex;
 }
 
@@ -344,6 +375,16 @@ footer #bg-pattern {
     order: 2;
     margin: 0 0 0 -.65rem;
     display: flex;
+  }
+}
+
+@media (min-width: 1440px) {
+  footer #bg-pattern {
+    flex-direction: row-reverse;
+    padding: 0 0 2.75rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }
 
