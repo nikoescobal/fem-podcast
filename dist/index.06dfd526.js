@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"1xC6H":[function(require,module,exports) {
+})({"4Q7dv":[function(require,module,exports) {
 var Refresh = require("react-refresh/runtime");
 var ErrorOverlay = require("react-error-overlay");
 Refresh.injectIntoGlobalHook(window);
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"react-refresh/runtime":"786KC","react-error-overlay":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"react-refresh/runtime":"9BVyK","react-error-overlay":"5EHdA"}],"9BVyK":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-refresh-runtime.development.js");
 
-},{"./cjs/react-refresh-runtime.development.js":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"./cjs/react-refresh-runtime.development.js":"jYzfR"}],"jYzfR":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -627,7 +627,7 @@ module.exports = require("./cjs/react-refresh-runtime.development.js");
     exports.setSignature = setSignature;
 })();
 
-},{}],"1dldy":[function(require,module,exports) {
+},{}],"5EHdA":[function(require,module,exports) {
 var process = require("process");
 !function(e, t) {
     module.exports = t();
@@ -2503,7 +2503,7 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"1yzLA":[function(require,module,exports) {
+},{}],"jWSuo":[function(require,module,exports) {
 "use strict";
 var global = arguments[3];
 var HMR_HOST = null;
@@ -2919,7 +2919,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./Container":"avkUw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./Container":"avkUw","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -27124,7 +27124,7 @@ $RefreshReg$(_c, "Container");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./Header":"dUnNP","./Main":"klioU","./Footer":"lOveM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dUnNP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./Header":"dUnNP","./Main":"klioU","./Footer":"lOveM","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"dUnNP":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9315 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27175,10 +27175,10 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../assets/desktop/logo.svg":"cMtCQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cMtCQ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../assets/desktop/logo.svg":"6HCA2","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"6HCA2":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "logo.81a88f3c.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"./helpers/bundle-url":"5wvPl"}],"5wvPl":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -27212,7 +27212,7 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"gkKU3":[function(require,module,exports) {
+},{}],"9FYyo":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27242,7 +27242,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"km3Ru":[function(require,module,exports) {
+},{}],"77JU4":[function(require,module,exports) {
 "use strict";
 var Refresh = require("react-refresh/runtime");
 function debounce(func, delay) {
@@ -27362,7 +27362,7 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"klioU":[function(require,module,exports) {
+},{"react-refresh/runtime":"9BVyK"}],"klioU":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b45c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27550,19 +27550,19 @@ $RefreshReg$(_c, "Main");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/desktop/spotify.svg":"h1pET","../assets/desktop/apple-podcast.svg":"lQwGX","../assets/desktop/google-podcasts.svg":"kpRNh","../assets/desktop/pocket-casts.svg":"c32rj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h1pET":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/desktop/spotify.svg":"gcf8J","../assets/desktop/apple-podcast.svg":"k1LTz","../assets/desktop/google-podcasts.svg":"gIUly","../assets/desktop/pocket-casts.svg":"hQzsC","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"gcf8J":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "spotify.0827c1c1.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lQwGX":[function(require,module,exports) {
+},{"./helpers/bundle-url":"5wvPl"}],"k1LTz":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "apple-podcast.ea936011.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"kpRNh":[function(require,module,exports) {
+},{"./helpers/bundle-url":"5wvPl"}],"gIUly":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "google-podcasts.8e9a58ed.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"c32rj":[function(require,module,exports) {
+},{"./helpers/bundle-url":"5wvPl"}],"hQzsC":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "pocket-casts.70254648.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lOveM":[function(require,module,exports) {
+},{"./helpers/bundle-url":"5wvPl"}],"lOveM":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$f05b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27607,9 +27607,9 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../assets/desktop/bg-pattern-dots.svg":"3q3ID","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3q3ID":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../assets/desktop/bg-pattern-dots.svg":"1fPMd","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"1fPMd":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("8J0Fo") + "bg-pattern-dots.71034119.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","1yzLA","7bftq"], "7bftq", "parcelRequired897")
+},{"./helpers/bundle-url":"5wvPl"}]},["4Q7dv","jWSuo","7bftq"], "7bftq", "parcelRequired897")
 
 //# sourceMappingURL=index.06dfd526.js.map
