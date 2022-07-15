@@ -249,7 +249,7 @@ main p {
 @media (min-width: 768px) {
   main p {
     text-align: left;
-    padding: 1.938rem 12rem 0 0;
+    padding: 1.938rem 12rem 2.5rem 0;
     font-size: 1.125rem;
     line-height: 1.75;
   }
