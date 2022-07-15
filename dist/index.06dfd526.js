@@ -27232,7 +27232,7 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/* eslint-disable import/extensions */ /* eslint-disable no-unused-vars */ var _header = require("./Header");
+/* eslint-disable import/extensions */ /* eslint-disable no-unused-vars */ /* eslint-disable import/no-unresolved */ var _header = require("./Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _main = require("./Main");
 var _mainDefault = parcelHelpers.interopDefault(_main);
@@ -27244,23 +27244,23 @@ function Container() {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/js/Container.js",
-                lineNumber: 11,
+                lineNumber: 12,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainDefault.default), {}, void 0, false, {
                 fileName: "src/js/Container.js",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "src/js/Container.js",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/Container.js",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }

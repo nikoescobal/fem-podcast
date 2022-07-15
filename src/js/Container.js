@@ -1,5 +1,6 @@
 /* eslint-disable import/extensions */
 /* eslint-disable no-unused-vars */
+/* eslint-disable import/no-unresolved */
 
 import Header from './Header';
 import Main from './Main';
