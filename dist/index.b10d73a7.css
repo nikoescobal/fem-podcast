@@ -12,18 +12,6 @@ html, body {
   overflow-x: hidden;
 }
 
-#root {
-  width: 100%;
-  height: 100%;
-  min-height: 100vh;
-  border: 0;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  overflow-x: hidden;
-}
-
 html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
   font-size: 100%;
   font: inherit;
@@ -63,58 +51,9 @@ footer, header, nav, section, main {
   display: block;
 }
 
-@media (min-width: 768px) {
-  #bg-container {
-    z-index: 3;
-    background-blend-mode: screen;
-    background-color: #0000;
-    background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.fb7aaec7.jpg");
-    background-position: right 0;
-    background-repeat: no-repeat;
-    background-size: auto, auto;
-    background-attachment: scroll, scroll;
-    background-origin: padding-box, padding-box;
-    background-clip: border-box, border-box;
-    grid-template-rows: 27% 1fr;
-    display: grid;
-  }
-}
-
-@media (min-width: 1200px) {
-  #bg-container {
-    background-blend-mode: screen;
-    background-color: #0000;
-    background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.f799d711.jpg");
-    background-position: right 0;
-    background-repeat: no-repeat;
-    background-size: auto, auto;
-    background-attachment: scroll, scroll;
-    background-origin: padding-box, padding-box;
-    background-clip: border-box, border-box;
-    margin: 5.125rem 0 0;
-    position: relative;
-  }
-}
-
-@media (min-width: 1440px) {
-  #bg-container {
-    background-blend-mode: screen;
-    background-color: #0000;
-    background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.f799d711.jpg");
-    background-position: right 0;
-    background-repeat: no-repeat;
-    background-size: auto, auto;
-    background-attachment: scroll, scroll;
-    background-origin: padding-box, padding-box;
-    background-clip: border-box, border-box;
-    margin: 8.125rem 0 0;
-    position: relative;
-  }
-}
-
 body {
-  height: 100vh;
   color: #c2cbe5;
+  height: 100vh;
   background-color: #0000;
   background-image: linear-gradient(to top, #121725e6, #121725e6), url("image-host.543a44d0.jpg");
   background-position: center;
@@ -136,42 +75,111 @@ body {
   }
 }
 
-header {
+body #root {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  border: 0;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow-x: hidden;
+}
+
+body #root .green {
+  color: #54e6af;
+}
+
+body #root .red {
+  color: #fb3e3e;
+}
+
+@media (min-width: 768px) {
+  body #root #bg-container {
+    z-index: 3;
+    background-blend-mode: screen;
+    background-color: #0000;
+    background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.fb7aaec7.jpg");
+    background-position: right 0;
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+    background-attachment: scroll, scroll;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    grid-template-rows: 27% 1fr;
+    display: grid;
+  }
+}
+
+@media (min-width: 1200px) {
+  body #root #bg-container {
+    background-blend-mode: screen;
+    background-color: #0000;
+    background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.f799d711.jpg");
+    background-position: right 0;
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+    background-attachment: scroll, scroll;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    margin: 5.125rem 0 0;
+    position: relative;
+  }
+}
+
+@media (min-width: 1440px) {
+  body #root #bg-container {
+    background-blend-mode: screen;
+    background-color: #0000;
+    background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.f799d711.jpg");
+    background-position: right 0;
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+    background-attachment: scroll, scroll;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    margin: 8.125rem 0 0;
+    position: relative;
+  }
+}
+
+body #root header {
   position: relative;
 }
 
-header nav #logo {
+body #root header nav #logo {
   text-align: center;
   z-index: 2;
   padding: 3.875rem 0 0;
 }
 
 @media (min-width: 768px) {
-  header nav #logo {
+  body #root header nav #logo {
     text-align: left;
     padding: 3.125rem 0 0 2.438rem;
   }
 }
 
 @media (min-width: 1200px) {
-  header nav #logo {
+  body #root header nav #logo {
     margin: -1rem 0 0;
     padding: 0 0 0 6.313rem;
   }
 }
 
 @media (min-width: 1440px) {
-  header nav #logo {
+  body #root header nav #logo {
     margin: -2rem 0 0;
     padding: 0 0 0 10.313rem;
   }
 }
 
-header nav #logo img {
+body #root header nav #logo img {
   padding: 0 0 3.563rem;
 }
 
-main {
+body #root main {
   flex-direction: column;
   gap: 1.5rem;
   padding: 0 1.5rem;
@@ -179,7 +187,7 @@ main {
 }
 
 @media (min-width: 768px) {
-  main {
+  body #root main {
     z-index: 2;
     background: #121725;
     gap: 0;
@@ -189,20 +197,20 @@ main {
 }
 
 @media (min-width: 1200px) {
-  main {
+  body #root main {
     margin: -2.3rem 26.2rem 0 0;
     padding: 3.5rem 0 0 7rem;
   }
 }
 
 @media (min-width: 1440px) {
-  main {
+  body #root main {
     margin: -3.9rem 34.2rem 0 0;
     padding: 5.5rem 0 0 10.313rem;
   }
 }
 
-main h1 {
+body #root main h1 {
   color: #54e6af;
   text-align: center;
   text-transform: uppercase;
@@ -213,7 +221,7 @@ main h1 {
 }
 
 @media (min-width: 768px) {
-  main h1 {
+  body #root main h1 {
     text-align: left;
     font-size: 3rem;
     line-height: 3.5rem;
@@ -221,24 +229,24 @@ main h1 {
 }
 
 @media (min-width: 1200px) {
-  main h1 {
+  body #root main h1 {
     font-size: 3.15rem;
     line-height: 3.675rem;
   }
 }
 
 @media (min-width: 1440px) {
-  main h1 {
+  body #root main h1 {
     font-size: 3.25rem;
     line-height: 3.875rem;
   }
 }
 
-main h1 span {
+body #root main h1 span {
   color: #fff;
 }
 
-main p {
+body #root main p {
   text-align: center;
   padding: 1rem 0 0;
   font-size: .938rem;
@@ -247,7 +255,7 @@ main p {
 }
 
 @media (min-width: 768px) {
-  main p {
+  body #root main p {
     text-align: left;
     padding: 1.7rem 12rem 2.5rem 0;
     font-size: 1.125rem;
@@ -256,25 +264,25 @@ main p {
 }
 
 @media (min-width: 1200px) {
-  main p {
+  body #root main p {
     padding: 1.5rem 12rem 2.5rem 0;
   }
 }
 
-main #container {
+body #root main #container {
   justify-content: space-between;
   align-items: center;
   gap: 1.438rem;
   display: flex;
 }
 
-main #container img {
+body #root main #container img {
   filter: invert(39%) sepia(43%) saturate(371%) hue-rotate(187deg) brightness(90%) contrast(85%);
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  main #container {
+  body #root main #container {
     max-width: 40rem;
     order: 1;
     padding: 2rem 6.2rem 9.563rem 0;
@@ -282,24 +290,24 @@ main #container img {
   }
 }
 
-main #message {
+body #root main #message {
   padding: 2.5rem 0 0;
   font-weight: bold;
 }
 
 @media (min-width: 768px) {
-  main #message {
+  body #root main #message {
     padding: 2.5rem 0 1rem 1.5rem;
   }
 }
 
-main #btn-container {
+body #root main #btn-container {
   flex-direction: column;
   gap: .95rem;
   display: flex;
 }
 
-main #btn-container input {
+body #root main #btn-container input {
   vertical-align: middle;
   cursor: pointer;
   color: #fff;
@@ -317,38 +325,38 @@ main #btn-container input {
 }
 
 @media (min-width: 768px) {
-  main #btn-container input {
+  body #root main #btn-container input {
     width: 26.688rem;
     padding: .875rem 0 .875rem 3rem;
   }
 }
 
-main #btn-container input:focus {
+body #root main #btn-container input:focus {
   box-shadow: none;
   outline: 1px solid #5a668a;
 }
 
-main #btn-container input:focus::placeholder {
+body #root main #btn-container input:focus::placeholder {
   color: #54e6af;
 }
 
-main #btn-container input::-webkit-input-placeholder {
+body #root main #btn-container input::-webkit-input-placeholder {
   color: #c2cbe5;
 }
 
-main #btn-container input::-moz-placeholder {
+body #root main #btn-container input::-moz-placeholder {
   color: #c2cbe5;
 }
 
-main #btn-container input:-ms-input-placeholder {
+body #root main #btn-container input:-ms-input-placeholder {
   color: #c2cbe5;
 }
 
-main #btn-container input:-moz-placeholder {
+body #root main #btn-container input:-moz-placeholder {
   color: #c2cbe5;
 }
 
-main #btn-container button {
+body #root main #btn-container button {
   vertical-align: middle;
   cursor: pointer;
   background: #54e6af;
@@ -367,42 +375,34 @@ main #btn-container button {
 }
 
 @media (min-width: 768px) {
-  main #btn-container button {
+  body #root main #btn-container button {
     width: 10.125rem;
     margin: -4.15rem 0 0 16.25rem;
   }
 }
 
-main #btn-container button:hover {
+body #root main #btn-container button:hover {
   background: #b3ffe2;
 }
 
-main #btn-container button::selection {
+body #root main #btn-container button::selection {
   color: none;
   background: none;
 }
 
-main #btn-container button:focus {
+body #root main #btn-container button:focus {
   color: #fff;
   box-shadow: none;
   background: teal;
   outline: none;
 }
 
-.green {
-  color: #54e6af;
-}
-
-.red {
-  color: #fb3e3e;
-}
-
-footer #bg-pattern {
+body #root footer #bg-pattern {
   display: none;
 }
 
 @media (min-width: 768px) {
-  footer #bg-pattern {
+  body #root footer #bg-pattern {
     order: 2;
     margin: 0 0 0 -.65rem;
     display: flex;
@@ -410,7 +410,7 @@ footer #bg-pattern {
 }
 
 @media (min-width: 1200px) {
-  footer #bg-pattern {
+  body #root footer #bg-pattern {
     flex-direction: row-reverse;
     padding: 0 0 3.35rem;
     position: absolute;
@@ -420,7 +420,7 @@ footer #bg-pattern {
 }
 
 @media (min-width: 1440px) {
-  footer #bg-pattern {
+  body #root footer #bg-pattern {
     padding: 0 0 3.25rem;
   }
 }
