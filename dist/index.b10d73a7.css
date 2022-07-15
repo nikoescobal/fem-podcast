@@ -249,7 +249,7 @@ main p {
 @media (min-width: 768px) {
   main p {
     text-align: left;
-    padding: 1.938rem 12rem 2.5rem 0;
+    padding: 1.7rem 12rem 2.5rem 0;
     font-size: 1.125rem;
     line-height: 1.75;
   }
@@ -257,7 +257,7 @@ main p {
 
 @media (min-width: 1200px) {
   main p {
-    padding: 1.5rem 12rem 0 0;
+    padding: 1.5rem 12rem 2.5rem 0;
   }
 }
 
@@ -297,12 +297,6 @@ main #btn-container {
   flex-direction: column;
   gap: .95rem;
   display: flex;
-}
-
-@media (min-width: 768px) {
-  main #btn-container {
-    padding: 0 0 4rem;
-  }
 }
 
 main #btn-container input {

@@ -299,11 +299,11 @@ main {
       text-align: left;
       font-size: 1.125rem;
       line-height: 1.75;
-      padding: 1.938rem 12rem 2.5rem 0;
+      padding: 1.7rem 12rem 2.5rem 0;
     }
 
     @include lg {
-      padding: 1.5rem 12rem 0 0;
+      padding: 1.5rem 12rem 2.5rem 0;
     }
   }
 
@@ -340,10 +340,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 0.95rem;
-
-    @include md {
-      padding: 0 0 4rem;
-    }
 
     input {
       @include btn-style;
