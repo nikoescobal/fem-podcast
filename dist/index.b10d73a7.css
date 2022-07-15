@@ -277,7 +277,7 @@ main #container img {
   main #container {
     max-width: 40rem;
     order: 1;
-    padding: 0 6.2rem 9.563rem 0;
+    padding: 2rem 6.2rem 9.563rem 0;
     line-height: 3.5rem;
   }
 }
@@ -412,10 +412,16 @@ footer #bg-pattern {
 @media (min-width: 1200px) {
   footer #bg-pattern {
     flex-direction: row-reverse;
-    padding: 0 0 2.75rem;
+    padding: 0 0 3.35rem;
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  footer #bg-pattern {
+    padding: 0 0 3.25rem;
   }
 }
 
