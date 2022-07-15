@@ -4,7 +4,6 @@ function Header() {
   return (
     <header>
       <nav>
-        <div id="bg-container"></div>
         <div id="logo">
           <img src={logo} alt="logo" />
         </div>
