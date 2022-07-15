@@ -27494,15 +27494,6 @@ function Main() {
                 lineNumber: 36,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: valid ? "green" : "red",
-                id: "message",
-                children: message
-            }, void 0, false, {
-                fileName: "src/js/Main.js",
-                lineNumber: 50,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 id: "btn-container",
                 children: [
@@ -27515,7 +27506,7 @@ function Main() {
                         required: true
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 54,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27523,13 +27514,22 @@ function Main() {
                         children: "Request Access"
                     }, void 0, false, {
                         fileName: "src/js/Main.js",
-                        lineNumber: 62,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Main.js",
-                lineNumber: 53,
+                lineNumber: 50,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: valid ? "green" : "red",
+                id: "message",
+                children: message
+            }, void 0, false, {
+                fileName: "src/js/Main.js",
+                lineNumber: 61,
                 columnNumber: 7
             }, this)
         ]

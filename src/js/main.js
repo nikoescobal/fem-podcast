@@ -47,9 +47,6 @@ function Main() {
           <img id="pocket" src={pocket} alt="pocket" />
         </div>
       </div>
-      <p className={valid ? 'green' : 'red'} id="message">
-        {message}
-      </p>
       <div id="btn-container">
         <input
           id="input"
@@ -61,6 +58,9 @@ function Main() {
         />
         <button onClick={emailValidation}>Request Access</button>
       </div>
+      <p className={valid ? 'green' : 'red'} id="message">
+        {message}
+      </p>
     </main>
   );
 }
