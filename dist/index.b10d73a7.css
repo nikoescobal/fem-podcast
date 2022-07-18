@@ -87,16 +87,8 @@ body #root {
   overflow-x: hidden;
 }
 
-body #root .green {
-  color: #54e6af;
-}
-
-body #root .red {
-  color: #fb3e3e;
-}
-
 @media (min-width: 768px) {
-  body #root #bg-container {
+  #bg-container {
     z-index: 3;
     background-blend-mode: screen;
     background-color: #0000;
@@ -113,7 +105,7 @@ body #root .red {
 }
 
 @media (min-width: 1200px) {
-  body #root #bg-container {
+  #bg-container {
     background-blend-mode: screen;
     background-color: #0000;
     background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.f799d711.jpg");
@@ -129,7 +121,7 @@ body #root .red {
 }
 
 @media (min-width: 1440px) {
-  body #root #bg-container {
+  #bg-container {
     background-blend-mode: screen;
     background-color: #0000;
     background-image: linear-gradient(to top, #12172533, #12172533), url("image-host.f799d711.jpg");
@@ -144,42 +136,42 @@ body #root .red {
   }
 }
 
-body #root header {
+header {
   position: relative;
 }
 
-body #root header nav #logo {
+header nav #logo {
   text-align: center;
   z-index: 2;
   padding: 3.875rem 0 0;
 }
 
 @media (min-width: 768px) {
-  body #root header nav #logo {
+  header nav #logo {
     text-align: left;
     padding: 3.125rem 0 0 2.438rem;
   }
 }
 
 @media (min-width: 1200px) {
-  body #root header nav #logo {
+  header nav #logo {
     margin: -1rem 0 0;
     padding: 0 0 0 6.313rem;
   }
 }
 
 @media (min-width: 1440px) {
-  body #root header nav #logo {
+  header nav #logo {
     margin: -2rem 0 0;
     padding: 0 0 0 10.313rem;
   }
 }
 
-body #root header nav #logo img {
+header nav #logo img {
   padding: 0 0 3.563rem;
 }
 
-body #root main {
+main {
   flex-direction: column;
   gap: 1.5rem;
   padding: 0 1.5rem;
@@ -187,7 +179,7 @@ body #root main {
 }
 
 @media (min-width: 768px) {
-  body #root main {
+  main {
     z-index: 2;
     background: #121725;
     gap: 0;
@@ -197,20 +189,20 @@ body #root main {
 }
 
 @media (min-width: 1200px) {
-  body #root main {
+  main {
     margin: -2.3rem 26.2rem 0 0;
     padding: 3.5rem 0 0 7rem;
   }
 }
 
 @media (min-width: 1440px) {
-  body #root main {
+  main {
     margin: -3.9rem 34.2rem 0 0;
     padding: 5.5rem 0 0 10.313rem;
   }
 }
 
-body #root main h1 {
+main h1 {
   color: #54e6af;
   text-align: center;
   text-transform: uppercase;
@@ -221,7 +213,7 @@ body #root main h1 {
 }
 
 @media (min-width: 768px) {
-  body #root main h1 {
+  main h1 {
     text-align: left;
     font-size: 3rem;
     line-height: 3.5rem;
@@ -229,24 +221,24 @@ body #root main h1 {
 }
 
 @media (min-width: 1200px) {
-  body #root main h1 {
+  main h1 {
     font-size: 3.15rem;
     line-height: 3.675rem;
   }
 }
 
 @media (min-width: 1440px) {
-  body #root main h1 {
+  main h1 {
     font-size: 3.25rem;
     line-height: 3.875rem;
   }
 }
 
-body #root main h1 span {
+main h1 span {
   color: #fff;
 }
 
-body #root main p {
+main p {
   text-align: center;
   padding: 1rem 0 0;
   font-size: .938rem;
@@ -255,7 +247,7 @@ body #root main p {
 }
 
 @media (min-width: 768px) {
-  body #root main p {
+  main p {
     text-align: left;
     padding: 1.7rem 12rem 2.5rem 0;
     font-size: 1.125rem;
@@ -264,25 +256,25 @@ body #root main p {
 }
 
 @media (min-width: 1200px) {
-  body #root main p {
+  main p {
     padding: 1.5rem 12rem 2.5rem 0;
   }
 }
 
-body #root main #container {
+main #container {
   justify-content: space-between;
   align-items: center;
   gap: 1.438rem;
   display: flex;
 }
 
-body #root main #container img {
+main #container img {
   filter: invert(39%) sepia(43%) saturate(371%) hue-rotate(187deg) brightness(90%) contrast(85%);
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  body #root main #container {
+  main #container {
     max-width: 40rem;
     order: 1;
     padding: 2rem 6.2rem 9.563rem 0;
@@ -290,24 +282,24 @@ body #root main #container img {
   }
 }
 
-body #root main #message {
+main #message {
   padding: 2.5rem 0 0;
   font-weight: bold;
 }
 
 @media (min-width: 768px) {
-  body #root main #message {
+  main #message {
     padding: 2.5rem 0 1rem 1.5rem;
   }
 }
 
-body #root main #btn-container {
+main #btn-container {
   flex-direction: column;
   gap: .95rem;
   display: flex;
 }
 
-body #root main #btn-container input {
+main #btn-container input {
   vertical-align: middle;
   cursor: pointer;
   color: #fff;
@@ -325,38 +317,38 @@ body #root main #btn-container input {
 }
 
 @media (min-width: 768px) {
-  body #root main #btn-container input {
+  main #btn-container input {
     width: 26.688rem;
     padding: .875rem 0 .875rem 3rem;
   }
 }
 
-body #root main #btn-container input:focus {
+main #btn-container input:focus {
   box-shadow: none;
   outline: 1px solid #5a668a;
 }
 
-body #root main #btn-container input:focus::placeholder {
+main #btn-container input:focus::placeholder {
   color: #54e6af;
 }
 
-body #root main #btn-container input::-webkit-input-placeholder {
+main #btn-container input::-webkit-input-placeholder {
   color: #c2cbe5;
 }
 
-body #root main #btn-container input::-moz-placeholder {
+main #btn-container input::-moz-placeholder {
   color: #c2cbe5;
 }
 
-body #root main #btn-container input:-ms-input-placeholder {
+main #btn-container input:-ms-input-placeholder {
   color: #c2cbe5;
 }
 
-body #root main #btn-container input:-moz-placeholder {
+main #btn-container input:-moz-placeholder {
   color: #c2cbe5;
 }
 
-body #root main #btn-container button {
+main #btn-container button {
   vertical-align: middle;
   cursor: pointer;
   background: #54e6af;
@@ -375,34 +367,34 @@ body #root main #btn-container button {
 }
 
 @media (min-width: 768px) {
-  body #root main #btn-container button {
+  main #btn-container button {
     width: 10.125rem;
     margin: -4.15rem 0 0 16.25rem;
   }
 }
 
-body #root main #btn-container button:hover {
+main #btn-container button:hover {
   background: #b3ffe2;
 }
 
-body #root main #btn-container button::selection {
+main #btn-container button::selection {
   color: none;
   background: none;
 }
 
-body #root main #btn-container button:focus {
+main #btn-container button:focus {
   color: #fff;
   box-shadow: none;
   background: teal;
   outline: none;
 }
 
-body #root footer #bg-pattern {
+footer #bg-pattern {
   display: none;
 }
 
 @media (min-width: 768px) {
-  body #root footer #bg-pattern {
+  footer #bg-pattern {
     order: 2;
     margin: 0 0 0 -.65rem;
     display: flex;
@@ -410,7 +402,7 @@ body #root footer #bg-pattern {
 }
 
 @media (min-width: 1200px) {
-  body #root footer #bg-pattern {
+  footer #bg-pattern {
     flex-direction: row-reverse;
     padding: 0 0 3.35rem;
     position: absolute;
@@ -420,9 +412,17 @@ body #root footer #bg-pattern {
 }
 
 @media (min-width: 1440px) {
-  body #root footer #bg-pattern {
+  footer #bg-pattern {
     padding: 0 0 3.25rem;
   }
+}
+
+.green {
+  color: #54e6af;
+}
+
+.red {
+  color: #fb3e3e;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */
