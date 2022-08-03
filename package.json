@@ -14,12 +14,12 @@
   "devDependencies": {
     "@babel/eslint-parser": "7.18.9",
     "@parcel/css": "1.12.2",
-    "@parcel/transformer-sass": "^2.6.2",
+    "@parcel/transformer-sass": "2.7.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
     "hint": "7.1.1",
-    "parcel": "^2.6.2",
+    "parcel": "2.7.0",
     "process": "^0.11.10",
     "sass": "1.54.1"
   },
