@@ -21,7 +21,7 @@
     "hint": "7.1.3",
     "parcel": "2.7.0",
     "process": "0.11.10",
-    "sass": "1.56.0"
+    "sass": "1.56.1"
   },
   "dependencies": {
     "json-schema": "0.4.0",
