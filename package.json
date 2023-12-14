@@ -17,7 +17,7 @@
     "@parcel/transformer-sass": "2.8.3",
     "eslint": "7.32.0",
     "eslint-config-airbnb-base": "14.2.1",
-    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-import": "2.29.1",
     "hint": "7.1.8",
     "parcel": "2.8.3",
     "process": "0.11.10",
