@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/eslint-parser": "7.21.3",
+    "@babel/eslint-parser": "7.24.1",
     "@parcel/css": "1.14.0",
     "@parcel/transformer-sass": "2.8.3",
     "eslint": "7.32.0",
